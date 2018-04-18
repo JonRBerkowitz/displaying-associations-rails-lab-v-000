@@ -1,4 +1,4 @@
-class ArtistsSongs
+class ArtistsSong
   belongs_to :artist
   belongs_to :song
 end

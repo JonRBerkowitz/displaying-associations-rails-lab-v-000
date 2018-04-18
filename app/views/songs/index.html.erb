@@ -8,6 +8,7 @@
         -
         <%= song.title %>
       </a>
+      <%= link_to song.artist, artist_path(song.artist)%>
     </li>
   <% end %>
 </ul>
